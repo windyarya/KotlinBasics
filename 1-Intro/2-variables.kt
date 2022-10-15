@@ -2,7 +2,7 @@ fun main() {
     // Integer Data Type
     // declare variable
     val count: Int = 2  //val is like constant in other programming language
-    val count1 = 4       //we can also declare variable like this, Kotlin automatically interprest this as an Int.
+    val count1 = 4       //we can also declare variable like this, Kotlin automatically interpret this as an Int.
 
     println("You have $count unread messages.")
     println(count)
@@ -12,7 +12,7 @@ fun main() {
 
     println("You have ${count + count1} total messages in your inbox.")
 
-    // because val is like constant, we can change the initial value of val. To do that we need to use var instead of val.
+    // because val is like constant, we cant change the initial value of val. To do that we need to use var instead of val.
     var count2 = 5
     println("This is the first var: $count2")
     count2 = 10
